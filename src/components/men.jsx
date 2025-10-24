@@ -101,7 +101,7 @@ export default function MenPage() {
           transition={{ duration: 0.8 }}
           className="text-4xl lg:text-5xl font-bold text-[#3a2c0a] text-center mb-6"
         >
-          Men's <span className="text-[#b5903c]">Collection</span>
+          Men&apos;s <span className="text-[#b5903c]">Collection</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
@@ -109,7 +109,7 @@ export default function MenPage() {
           transition={{ delay: 0.3, duration: 1 }}
           className="text-[#4b3b15]/70 text-center mb-1"
         >
-          Explore our curated collection of men's wear — style, comfort & elegance
+          Explore our curated collection of men&apos;s wear — style, comfort & elegance
           combined.
         </motion.p>
 

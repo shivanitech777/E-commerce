@@ -68,7 +68,7 @@ export default function DressCategories() {
           transition={{ delay: 0.3, duration: 1 }}
           className="text-[#4b3b15]/70 mt-3 mb-10 max-w-2xl mx-auto text-lg"
         >
-          Shop from our wide range of men's and women's collections — from
+          Shop from our wide range of men&apos;s and women&apos;s collections — from
           traditional elegance to modern trends. Find your perfect outfit today.
         </motion.p>
 

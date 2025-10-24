@@ -17,7 +17,7 @@ export default function Contact() {
           Contact <span className="text-[#c19a6b]">Us</span>
         </motion.h2>
         <p className="text-gray-600 text-sm sm:text-base">
-          We'd love to hear from you! Reach out for any questions, feedback, or support.
+          We&apos;d love to hear from you! Reach out for any questions, feedback, or support.
         </p>
       </div>
 

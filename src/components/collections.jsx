@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Collections = () => {
@@ -16,9 +17,11 @@ const Collections = () => {
     <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
       <li>
         <a href="#" className="group block overflow-hidden">
-          <img
+          <Image
             src="/neww.jpg"
-            alt=""
+            alt=" height 500 width 500"
+            width={500}
+            height={500}
             className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
@@ -38,11 +41,14 @@ const Collections = () => {
 
       <li>
         <a href="#" className="group block overflow-hidden">
-          <img
+      <Image
             src="/kurtared.jpg"
-            alt=""
+            alt="kurta"
+            width={500}
+            height={500}
             className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
+        
 
           <div className="relative bg-white pt-3">
             <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
@@ -60,9 +66,11 @@ const Collections = () => {
 
       <li>
         <a href="#" className="group block overflow-hidden">
-          <img
+          <Image
             src="/mn4.jpg"
-            alt=""
+            width={500}
+            height={500}
+            alt="cloth"
             className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
@@ -82,9 +90,11 @@ const Collections = () => {
 
       <li>
         <a href="#" className="group block overflow-hidden">
-          <img
+          <Image
             src="/logolenghga.jpg"
-            alt=""
+            alt="logo"
+            width={500}
+            height={500}
             className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
