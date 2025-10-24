@@ -10,42 +10,30 @@ const categories = [
     image: "/blue.jpg",
     link: "/women",
   },
-  {
-    name: "Women's Gowns",
-    image: "/gown.jpg",
-    link: "/women",
-  },
+ 
   {
     name: "Men's Kurtas",
     image: "/man.jpg",
     link: "/men",
   },
-  {
-    name: "Men's Shirts",
-    image: "/shirtt.jpg",
-    link: "/men",
+   {
+    name: "Women's Sarees",
+    image: "/blue.jpg",
+    link: "/women",
   },
+ 
   {
-    name: "Casual Wear",
-    image: "/casual.jpg",
-    link: "/men",
-  },
-  {
-    name: "Party Wear",
-    image:"/party.jpg",
+    name: "Men's Kurtas",
+    image: "/man.jpg",
     link: "/men",
   },
    {
-    name: "Ethenic",
-    image:"/gownn.jpg",
-    link: "/men",
+    name: "Women's Sarees",
+    image: "/blue.jpg",
+    link: "/women",
   },
-  
-   {
-    name: "Saree",
-    image:"/sariwhite.jpg",
-    link: "/men",
-  },
+ 
+ 
 ];
 
 export default function DressCategories() {
@@ -73,7 +61,7 @@ export default function DressCategories() {
         </motion.p>
 
        
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
           {categories.map((cat, index) => (
             <motion.div
               key={cat.name}

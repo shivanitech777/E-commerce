@@ -66,9 +66,9 @@ export default function BestSeller() {
         </motion.p>
 
      
-        <div className="grid grid-cols-2 lg:grid-cols-5 gap-2 md:gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
           {bestSellers.map((item, index) => (
-            <motion.div
+              <motion.div
               key={item.id}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -81,7 +81,7 @@ export default function BestSeller() {
                   src={item.image}
                   alt={item.name}
                   fill
-                  className="object-contain group-hover:scale-105 transition-transform duration-500"
+                  className="object-cover md:object-contain group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="md:p-5 p-2 text-left">

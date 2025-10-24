@@ -8,84 +8,87 @@ import Link from "next/link";
 const menProducts = [
   {
     id: 1,
-    name: "Saari for occasion ",
+    name: "punjabi suit",
     price: 2999,
     oldPrice: 3499,
     discount: 14, 
-    image: "/sari.jpg",
+    image: "/suitpunjabi.webp",
   },
-  {
+   {
     id: 2,
-    name: "Gown",
-    price: 1899,
-    oldPrice: 2199,
-    discount: 14,
-    image: "/gownn.jpg",
+    name: "pink suit ",
+    price: 2999,
+    oldPrice: 3499,
+    discount: 14, 
+    image: "/pink.webp",
   },
   {
     id: 3,
-    name: "Anarkali",
+    name: "red suit ",
+    price: 2999,
+    oldPrice: 3499,
+    discount: 14, 
+    image: "/red.webp",
+  },
+   {
+    id: 4,
+    name: "White Suit ",
+    price: 2999,
+    oldPrice: 3499,
+    discount: 14, 
+    image: "/white.webp",
+  },
+  {
+    id: 5,
+    name: "blue suit ",
+    price: 2999,
+    oldPrice: 3499,
+    discount: 14, 
+    image: "/blue.webp",
+  },  
+  {
+    id: 6,
+    name: "best suits",
     price: 3499,
     oldPrice: 3999,
     discount: 13,
-    image: "/anarkali.jpg",
-  },
-  {
-    id: 4,
-    name: "kurti ",
-    price: 999,
-    oldPrice: 1299,
-    discount: 23,
-    image: "/kurti.jpg",
-  },
-  {
-    id: 5,
-    name: "Designer lehnga",
-    price: 1499,
-    oldPrice: 1799,
-    discount: 17,
-    image:"/logolenghga.jpg",
-  },
-  {
-    id: 6,
-    name: "skirt",
-    price: 3999,
-    oldPrice: 4499,
-    discount: 11,
-    image: "/skirt.jpg",
-  },
-  {
+    image: "/pink.webp",
+  },                
+  
+ {
     id: 7,
-    name: "suit pant",
-    price: 2999,
-    oldPrice: 3499,
-    discount: 14, 
-    image: "/salwar.jpg",
-  },
-  {
-    id: 8,
-    name: "sari ",
-    price: 1899,
-    oldPrice: 2199,
-    discount: 14,
-    image: "/lol.jpg",
-  },
-  {
-    id: 5,
-    name: "Desiner lehnga",
-    price: 1499,
-    oldPrice: 1799,
-    discount: 17,
-    image:"/leenghaimgg.jpg",
-  },
-   {
-    id: 3,
     name: "best",
     price: 3499,
     oldPrice: 3999,
     discount: 13,
-    image: "/lehnga.jpg",
+    image: "/purpleyellow.jpg",
   },
+
+ {
+    id: 8,
+    name: "best",
+    price: 3499,
+    oldPrice: 3999,
+    discount: 13,
+    image: "/purple.webp",
+  },
+ {
+    id: 9,
+    name: "best frok ",
+    price: 3499,
+    oldPrice: 3999,
+    discount: 13,
+    image: "/frok.webp",
+  },
+  {
+    id: 10,
+    name: "best",
+    price: 3499,
+    oldPrice: 3999,
+    discount: 13,
+    image: "/bluefrok.webp",
+  },
+   
    
   
   
@@ -125,15 +128,15 @@ export default function WomanPage() {
               viewport={{ once: true }}
               className="bg-white  shadow-lg hover:shadow-2xl overflow-hidden group"
             >
-              <div className="relative w-full h-56 md:h-80">
+              <div className="relative w-full h-64 md:h-96">
                 <Image
                   src={item.image}
                   alt={item.name}
                   fill
-                  className="object-contain group-hover:scale-105 transition-transform duration-500"
+                  className="object-cover  group-hover:scale-105 transition-transform duration-500 object-top"
                 />
               </div>
-              <div className="md:p-5 p-2 text-left">
+              <div className="md:p-4 p-2 text-left">
                 <h3 className="text-lg font-semibold text-[#3a2c0a] md:mb-1">
                   {item.name}
                 </h3>
