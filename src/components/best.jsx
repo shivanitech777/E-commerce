@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { Eye, ShoppingBag } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -43,7 +44,7 @@ const bestSellers = [
 export default function BestSeller() {
   return (
     <section className="py-12 bg-gradient-to-b from-[#f8f5ef] via-[#f2ead3] to-[#f8f5ef]">
-      <div className="w-full mx-auto px-6 text-center">
+      <div className="w-full mx-auto px-2  md:px-6 text-center">
        
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
@@ -65,7 +66,7 @@ export default function BestSeller() {
         </motion.p>
 
      
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+        <div className="grid grid-cols-2 lg:grid-cols-5 gap-2 md:gap-4">
           {bestSellers.map((item, index) => (
             <motion.div
               key={item.id}
@@ -75,7 +76,7 @@ export default function BestSeller() {
               viewport={{ once: true }}
               className="bg-white  shadow-lg hover:shadow-2xl overflow-hidden group"
             >
-              <div className="relative w-full h-80">
+              <div className="relative w-full h-56 md:h-80">
                 <Image
                   src={item.image}
                   alt={item.name}
@@ -83,20 +84,22 @@ export default function BestSeller() {
                   className="object-contain group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
-              <div className="p-5 text-left">
-                <h3 className="text-lg font-semibold text-[#3a2c0a] mb-1">
+              <div className="md:p-5 p-2 text-left">
+                <h3 className="text-lg font-semibold text-[#3a2c0a] md:mb-1">
                   {item.name}
                 </h3>
-                <p className="text-[#b5903c] font-medium mb-4">{item.price}</p>
+                <p className="text-[#b5903c] font-medium mb-2 md:mb-4">{item.price}</p>
                 <div className="flex justify-between items-center">
                   <Link
                     href={`/product/${item.id}`}
-                    className="text-sm bg-[#a17c2b] text-white px-4 py-2 r hover:bg-[#b6903d] transition-all"
+                    className="text-sm bg-[#a17c2b] text-white px-4 py-2 r hover:bg-[#b6903d] transition-all flex items-center"
                   >
-                    View Details
+                    <Eye size={16} className="inline-block mr-0 md:hidden" />
+                   <span className="hidden md:block"> View Details</span>
                   </Link>
-                  <button className="text-sm border border-[#a17c2b] text-[#a17c2b] px-4 py-2 hover:bg-[#a17c2b] hover:text-white transition-all">
-                    Add to Cart
+                  <button className="text-sm border flex items-center border-[#a17c2b] text-[#a17c2b] px-4 py-2 hover:bg-[#a17c2b] hover:text-white transition-all">
+                    <ShoppingBag size={16} className="inline-block mr-0 md:hidden" />
+                 <span className="hidden md:block">   Add to Cart</span>
                   </button>
                 </div>
               </div>
