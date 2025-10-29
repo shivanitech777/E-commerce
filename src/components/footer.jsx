@@ -11,7 +11,7 @@ export default function Footer() {
   });
 
   return (
-    <footer className="relative bg-gradient-to-b from-[#fffaf3] via-[#f7f2e8] to-[#f9f4e9] text-[#3a2c0a] border-t border-[#e6d7b5]/50 mt-20 overflow-hidden">
+    <footer className="relative bg-gradient-to-b from-[#fffaf3] via-[#f7f2e8] to-[#f9f4e9] text-[#3a2c0a] border-t border-[#e6d7b5]/50  overflow-hidden">
    
       <div className="absolute inset-0 bg-gradient-to-t from-[#f1e5c7]/20 via-transparent to-transparent pointer-events-none" />
 

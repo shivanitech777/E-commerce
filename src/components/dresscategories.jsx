@@ -28,8 +28,8 @@ const categories = [
     link: "/men",
   },
    {
-    name: "Women's suit",
-    image: "/pink.webp",
+    name: "jeans aesthetic",
+    image: "/bluefrok.webp",
     link: "/women",
   },
  
@@ -61,7 +61,7 @@ export default function DressCategories() {
         </motion.p>
 
        
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
           {categories.map((cat, index) => (
             <motion.div
               key={cat.name}
@@ -76,7 +76,7 @@ export default function DressCategories() {
                 alt={cat.name}
                 width={500}
                 height={500}
-                className="object-contain w-full h-[350px] group-hover:scale-105 transition-transform duration-500"/>
+                className="object-cover w-full h-[350px] md:h-[400px] group-hover:scale-105 transition-transform duration-500"/>
               <div className="absolute inset-0 bg-gradient-to-t from-[#000]/60 via-transparent to-transparent"></div>
 
               <motion.div

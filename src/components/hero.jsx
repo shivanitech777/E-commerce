@@ -88,7 +88,7 @@ export default function HeroSection() {
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.2 }}
-        className="absolute bottom-6 w-full text-center text-[#3a2c0a]/80 font-medium tracking-wide"
+        className="absolute bottom-0 md:bottom-6 w-full text-center text-[#3a2c0a]/80 font-medium tracking-wide"
       >
         ✨ Embrace the Royal Look – Crafted with Indian Elegance ✨
       </motion.div>

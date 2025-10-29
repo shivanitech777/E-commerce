@@ -4,7 +4,7 @@ import React from 'react'
 const Collections = () => {
   return (
     <section>
-  <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+  <div className=" bg-gradient-to-r from-[#f8f5ef] via-[#f4ecd8] to-[#f8f5ef] mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
     <header>
       <h2 className="text-xl font-bold text-gray-900 sm:text-3xl mt-20">Product Collection</h2>
 
@@ -18,7 +18,7 @@ const Collections = () => {
       <li>
         <a href="#" className="group block overflow-hidden">
           <Image
-            src="/neww.jpg"
+            src="/white.webp"
             alt=" height 500 width 500"
             width={500}
             height={500}
@@ -42,7 +42,7 @@ const Collections = () => {
       <li>
         <a href="#" className="group block overflow-hidden">
       <Image
-            src="/kurtared.jpg"
+            src="/suitpunjabi.webp"
             alt="kurta"
             width={500}
             height={500}
@@ -67,7 +67,7 @@ const Collections = () => {
       <li>
         <a href="#" className="group block overflow-hidden">
           <Image
-            src="/mn4.jpg"
+            src="/yellowman.jpg"
             width={500}
             height={500}
             alt="cloth"
@@ -91,7 +91,7 @@ const Collections = () => {
       <li>
         <a href="#" className="group block overflow-hidden">
           <Image
-            src="/logolenghga.jpg"
+            src="/jean.webp"
             alt="logo"
             width={500}
             height={500}

@@ -25,8 +25,9 @@ export default function Header() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="flex items-center space-x-2 sm:space-x-3 flex-shrink-0"
+          
         >
+       <Link href="/" className="flex items-center space-x-2 sm:space-x-3 flex-shrink-0">
           <Image
             src="/newlogo22.jpg"
             alt="RoyalThreads"
@@ -37,6 +38,7 @@ export default function Header() {
           <h1 className="text-xl sm:text-2xl md:text-3xl font-serif text-[#a17c2b] tracking-wide">
             VS<span className="text-[#4b3b15]">Wears</span>
           </h1>
+          </Link>
         </motion.div>
 
         

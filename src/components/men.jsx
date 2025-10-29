@@ -126,12 +126,12 @@ export default function MenPage() {
                      viewport={{ once: true }}
                      className="bg-white  shadow-lg hover:shadow-2xl overflow-hidden group"
                    >
-                     <div className="relative w-full h-56 md:h-80">
+                     <div className="relative w-full h-56 md:h-96">
                        <Image
                          src={item.image}
                          alt={item.name}
                          fill
-                         className="object-cover  md:object-contain group-hover:scale-105 transition-transform duration-500"
+                         className="object-cover  group-hover:scale-105 transition-transform duration-500"
                        />
                      </div>
                      <div className="md:p-5 p-2 text-left">

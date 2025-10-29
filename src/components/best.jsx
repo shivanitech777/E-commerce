@@ -66,7 +66,7 @@ export default function BestSeller() {
         </motion.p>
 
      
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
           {bestSellers.map((item, index) => (
               <motion.div
               key={item.id}
@@ -76,12 +76,12 @@ export default function BestSeller() {
               viewport={{ once: true }}
               className="bg-white  shadow-lg hover:shadow-2xl overflow-hidden group"
             >
-              <div className="relative w-full h-56 md:h-80">
+              <div className="relative w-full h-56 md:h-96">
                 <Image
                   src={item.image}
                   alt={item.name}
                   fill
-                  className="object-cover md:object-contain group-hover:scale-105 transition-transform duration-500"
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="md:p-5 p-2 text-left">

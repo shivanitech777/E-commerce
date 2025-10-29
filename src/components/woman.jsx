@@ -61,7 +61,7 @@ const menProducts = [
     price: 3499,
     oldPrice: 3999,
     discount: 13,
-    image: "/purpleyellow.jpg",
+    image: "/white.webp",
   },
 
  {
