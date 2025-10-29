@@ -6,30 +6,30 @@ import Link from "next/link";
 
 const categories = [
   {
-    name: "Women's Sarees",
-    image: "/blue.jpg",
+    name: "Women's",
+    image: "/suitpunjabi.webp",
     link: "/women",
   },
  
   {
-    name: "Men's Kurtas",
-    image: "/man.jpg",
+    name: "Men's",
+    image: "/trackpants.jpg",
     link: "/men",
   },
    {
     name: "Women's Sarees",
-    image: "/blue.jpg",
+    image: "/purpleyellow.webp",
     link: "/women",
   },
  
   {
-    name: "Men's Kurtas",
-    image: "/man.jpg",
+    name: "Men'shirt",
+    image: "/shirtmeri.webp",
     link: "/men",
   },
    {
-    name: "Women's Sarees",
-    image: "/blue.jpg",
+    name: "Women's suit",
+    image: "/pink.webp",
     link: "/women",
   },
  

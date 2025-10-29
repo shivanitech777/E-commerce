@@ -9,35 +9,35 @@ const bestSellers = [
   
   {
     id: 1,
-    name: " Elegent sari ",
+    name: " Trouser fit ",
     price: "₹21,499",
-    image: "/sariwhite.jpg",
+    image: "/trouser2.jpg",
   },
   
    {
     id: 2,
     name: "Suit",
     price: "₹26,499",
-    image: "/suit.webp",
+    image: "/white.webp",
   },
    {
     id: 3,
-    name: "Couple wear",
+    name: "",
     price: "₹31,199",
-    image: "/couple.jpg",
+    image: "/jeans.jpg",
   },
   {
     id: 4,
-    name: "Lehnga",
+    name: "Best for women",
     price: "₹31,999",
-    image: "/sari.jpg",
+    image: "/red.webp",
   },
   
   {
     id: 5,
-    name: "Gown",
+    name: "Kurta",
     price: "₹26,499",
-    image: "/gown2.jpg",
+    image: "/yellowman.jpg",
   },
 ];
 
